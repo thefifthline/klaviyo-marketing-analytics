@@ -1,4 +1,4 @@
-# thefifthline. — Klaviyo Marketing Intelligence Dashboard
+# thefifthline.D — Klaviyo Marketing Intelligence Dashboard
 
 Phase 1 portfolio project built with Next.js App Router, TypeScript, Tailwind CSS 4, Recharts, and Lucide icons. Northline is a fictional home-goods store. **All data is sample/demo data. This project is independent of and not endorsed by Klaviyo.**
 
@@ -9,8 +9,6 @@ Use Node.js 22 LTS or newer and pnpm 11.19.0. If pnpm is missing, install it wit
 From this project folder:
 
 ```sh
-git clone https://github.com/thefifthline/klaviyo-marketing-analytics.git
-cd klaviyo-marketing-analytics
 pnpm install --frozen-lockfile
 pnpm dev
 ```
@@ -64,11 +62,11 @@ To add Klaviyo later, implement `AnalyticsProvider.getDataset()` in a server-onl
 
 ## Deploy to Vercel — only when you decide to
 
-This demo has no live Klaviyo or Shopify connection. To deploy later:
+Nothing has been deployed or connected. To deploy later:
 
-1. Use the `thefifthline/klaviyo-marketing-analytics` GitHub repository.
-2. In Vercel, choose Add New → Project and import that repository after reviewing the account and plan terms.
-3. Select Next.js. Keep Root Directory at the repository root (`./`).
+1. Put this project folder in your own GitHub repository (exclude `node_modules`, `.next`, and secrets; the included `.gitignore` covers these).
+2. In Vercel, import that repository after reviewing the account and plan terms.
+3. Select Next.js. Set Root Directory to this folder if it is nested in the repository.
 4. Use Node.js 22.x, install command `pnpm install --frozen-lockfile`, and build command `pnpm build`. Leave Output Directory at its framework default.
 5. No environment variables or custom domain are needed for this demo. Deploy only when you authorize it.
 

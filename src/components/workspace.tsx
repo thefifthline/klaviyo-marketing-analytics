@@ -7,7 +7,6 @@ import {
   LayoutDashboard,
   Mail,
   GitBranch,
-  ChevronDown,
   ArrowUpRight,
   FlaskConical,
 } from "lucide-react";
@@ -43,17 +42,11 @@ export function Workspace({
             <span className="brand-icon">
               <Activity size={22} />
             </span>
-            <span className="brand-wordmark">thefifthline<span className="brand-period">.</span></span>
+            <span className="brand-wordmark">
+              thefifthline<span className="brand-period">.D</span>
+            </span>
           </Link>
           <div className="brand-sub">MARKETING INTELLIGENCE</div>
-          <div className="store">
-            <div className="store-monogram">N</div>
-            <div>
-              <strong>Northline</strong>
-              <small>Home & everyday living</small>
-            </div>
-            <ChevronDown size={15} />
-          </div>
           <div className="nav-label">WORKSPACE</div>
           <nav aria-label="Main navigation">
             {[
@@ -99,7 +92,7 @@ export function Workspace({
             <div className="profile">
               <span className="avatar">FL</span>
               <div>
-                <strong>thefifthline. workspace</strong>
+                <strong>thefifthline.D workspace</strong>
                 <small>Sample data environment</small>
               </div>
             </div>
@@ -126,7 +119,9 @@ export function Workspace({
           </header>
           <main id="main">{children}</main>
           <footer>
-            <span>thefifthline. · Klaviyo Marketing Intelligence</span>
+            <span>
+              © Ramin · thefifthline.D · Klaviyo Marketing Intelligence
+            </span>
             <span>
               Independent portfolio demo · All figures are fictional · USD / UTC
             </span>

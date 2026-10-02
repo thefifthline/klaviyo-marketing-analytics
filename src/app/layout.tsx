@@ -4,8 +4,8 @@ import { Workspace } from "@/components/workspace";
 import { analyticsProvider } from "@/lib/data/provider";
 export const metadata: Metadata = {
   title: {
-    default: "thefifthline. — Marketing Intelligence",
-    template: "%s · thefifthline.",
+    default: "thefifthline.D — Marketing Intelligence",
+    template: "%s · thefifthline.D",
   },
   description:
     "A portfolio-ready Klaviyo marketing intelligence dashboard. Explore fictional Northline campaign and flow performance. Sample data only.",

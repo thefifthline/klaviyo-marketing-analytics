@@ -75,10 +75,10 @@ small {
   display: flex;
   align-items: center;
   color: white;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   letter-spacing: -1px;
-  padding-left: 10px;
+  padding-left: 0;
   gap: 9px;
 }
 .brand-icon {
@@ -1466,15 +1466,36 @@ dd {
   }
 }
 
-.brand-wordmark { white-space: nowrap; }
-.brand-icon { flex-shrink: 0; }
+.brand-wordmark {
+  white-space: nowrap;
+}
+.brand-icon {
+  flex-shrink: 0;
+}
 @media (min-width: 701px) and (max-width: 1250px) {
-  .brand { font-size: 20px; padding-left: 0; gap: 6px; }
-  .brand-icon { width: 26px; height: 28px; }
+  .brand {
+    font-size: 18px;
+    padding-left: 0;
+    gap: 6px;
+  }
+  .brand-icon {
+    width: 26px;
+    height: 28px;
+  }
 }
 @media (max-width: 700px) {
-  .sidebar { display: block; }
-  .sidebar nav { justify-content: space-between; margin-top: 15px; }
-  .nav-item { flex: 1; justify-content: center; }
-  .brand { width: fit-content; }
+  .sidebar {
+    display: block;
+  }
+  .sidebar nav {
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  .nav-item {
+    flex: 1;
+    justify-content: center;
+  }
+  .brand {
+    width: fit-content;
+  }
 }
